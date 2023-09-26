@@ -100,6 +100,7 @@ Above, we noted that we hope to support Derecho on DPDK.  DPDK, like LibFabrics,
 * \@mpmilano's C++ utilities, which are all CMake libraries that can be installed with "make install":
   - [`mutils`](https://github.com/mpmilano/mutils) ([Installation script](https://github.com/Derecho-Project/derecho/blob/master/scripts/prerequisites/install-mutils.sh))
   - [`mutils-containers`](https://github.com/mpmilano/mutils-containers) ([Installation script](https://github.com/Derecho-Project/derecho/blob/master/scripts/prerequisites/install-mutils-containers.sh))
+* Note that each of the provided install scripts (available in derecho/scripts/prerequisites/) should be run with one bash command at a time.
 
 ### Getting Started
 To download the project, run
